@@ -1,0 +1,10 @@
+### signup
+POST http://localhost:3000/v1/api/shop/signup
+Content-Type: application/json
+x-api-key: 167f9977c34341dc63a03610ab8ec195474f3926533504655aeb4da742ef23963c0246f976ddfce3d47c2c928b4387a2501a4bad98e85c14944b896100543934
+
+{
+  "name": "ShopThuong",
+  "email": "thuongtt100@gmail.com",
+  "password": "13456789"
+}

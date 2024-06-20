@@ -1,0 +1,28 @@
+{
+  "name": "backend-architecture",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "compression": "^1.7.4",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "helmet": "^6.0.1",
+    "jsonwebtoken": "^9.0.0",
+    "lodash": "^4.17.21",
+    "mongoose": "^7.0.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.22",
+    "slugify": "^1.6.6"
+  }
+}

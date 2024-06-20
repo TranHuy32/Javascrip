@@ -1,0 +1,28 @@
+{
+  "name": "B1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devStart": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "crypto": "^1.0.1",
+    "crypto-js": "^4.1.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "helmet": "^5.0.2",
+    "http-errors": "^1.8.0",
+    "joi": "^17.4.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.0.12",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.14",
+    "redis": "^3.1.2"
+  }
+}

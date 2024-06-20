@@ -1,0 +1,37 @@
+GET http://localhost:3000/
+
+###
+POST  http://localhost:3000/v1/user/register
+Content-Type: application/json
+
+{
+  "email": "thuongtt@gmail.com",
+  "password": "Aabc123"
+}
+###
+POST  http://localhost:3000/v1/user/refresh-token
+Content-Type: application/json
+
+{
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MTczOGQzYWFjN2Q0MmU1ZTE4NGFhM2MiLCJpYXQiOjE2MzU4NjA4ODYsImV4cCI6MTY2NzQxODQ4Nn0.yVpzsFnFtpBsU0TTnx8gJgh5T3nF2-0agOCkPf5jViE"
+}
+###
+POST  http://localhost:3000/v1/user/login
+Content-Type: application/json
+
+{
+  "email": "thuongtt@gmail.com",
+  "password": "Aabc123"
+}
+###
+DELETE   http://localhost:3000/v1/user/logout
+Content-Type: application/json
+
+{
+  "refreshToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MTczOGQzYWFjN2Q0MmU1ZTE4NGFhM2MiLCJpYXQiOjE2MzU4NjE4MDAsImV4cCI6MTYzNTg2OTAwMH0.VsTgQ4R5NdcM8MiQCkkYs8otzZh8AlXUj_7SjA6-vvY"
+}
+
+
+###
+POST  http://localhost:3000/v1/user/getlist
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MTczOGQzYWFjN2Q0MmU1ZTE4NGFhM2MiLCJpYXQiOjE2MzU4NjQxMzMsImV4cCI6MTYzNTg3MTMzM30.XWTvLBL718jXK7Mx1o3Q3ePXkcBZIysLONhsRWMSQX8
